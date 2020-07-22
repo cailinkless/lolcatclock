@@ -21,7 +21,7 @@ if (time == partyTime){
     messageText = "IZ PARTEE TIME!!";
 	image = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat4.jpg";
 } else if (time == napTime) {
-    messageText = "IZ NAP TIME…";
+    messageText = "IZ NAP TIME...";
 	image = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat3.jpg";
 } else if (time == lunchTime) {
     messageText = "IZ NOM NOM NOM TIME!!";
@@ -62,7 +62,7 @@ var showCurrentTime = function()
     }
     if (hours > noon)
     {
-        hours = hours – 12;
+        hours = hours - 12;
     }
 
     // Set Minutes
